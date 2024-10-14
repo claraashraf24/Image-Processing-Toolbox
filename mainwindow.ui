@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1097</width>
+    <height>836</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(28, 46, 74);
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tab_widget">
+      <property name="currentIndex">
+       <number>10</number>
+      </property>
+      <widget class="QWidget" name="tab_one">
+       <attribute name="title">
+        <string>Normal Size</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <property name="topMargin">
+         <number>16</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="EmbedImageWidget" name="imagewidget" native="true"/>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QGroupBox" name="groupBox">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="title">
+               <string>Patient's Information</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="0" column="0">
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_9">
+                   <item>
+                    <widget class="QLabel" name="name_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border: 5px solid white;
+color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_10">
+                   <item>
+                    <widget class="QLabel" name="age_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Age</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="age_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);
+border: 5px solid white;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <item>
+                    <widget class="QLabel" name="modality_name_label">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Modality</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="modality_label">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border: 5px solid white;
+color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_11">
+                   <item>
+                    <widget class="QLabel" name="part_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Body Part</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="part_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);
+border: 5px solid white;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="maximumSize">
+               <size>
+                <width>500</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="title">
+               <string>Image's Information</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="0" column="0">
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <item>
+                    <widget class="QLabel" name="rows_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Width</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="rows_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);
+border: 5px solid white;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_2">
+                   <item>
+                    <widget class="QLabel" name="columns_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Height</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="column_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border: 5px solid white;
+color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_3">
+                   <item>
+                    <widget class="QLabel" name="size_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Size</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="size_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border: 5px solid white;
+color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_4">
+                   <item>
+                    <widget class="QLabel" name="bit_depth_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Bit Depth</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="bit_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border: 5px solid white;
+color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_5">
+                   <item>
+                    <widget class="QLabel" name="rgb_name_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Color</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="color_label">
+                     <property name="maximumSize">
+                      <size>
+                       <width>400</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border: 5px solid white;
+color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="zoom_tab">
+       <attribute name="title">
+        <string>Zoom</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="2" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QPushButton" name="zoom_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Nearest Neighbour Zoom</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="linear_interpolation">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+            </property>
+            <property name="text">
+             <string>Bilinear Interpolation Zoom</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="ZoomedCanvas" name="zoomed_image_widget" native="true"/>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="scale_input">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Enter the scale:</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="rotation_page">
+       <attribute name="title">
+        <string>Rotation </string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="angle_label">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Write the angle:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="angle_input">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="status_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Rotation Status</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="nearest_rotate">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Nearest Interpolation</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="bilinear_rotate">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Bilinear Interpolation </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rotation_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Rotate</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="shear_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Shear</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="RotationCanvas" name="rotation_widget" native="true"/>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="generate_button">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Generate T</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Histogram</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="histogram_browse_button">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Browse</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="NormalHistogramWidget" name="before_equalize_img" native="true"/>
+            </item>
+            <item>
+             <widget class="BeforeEqualizeWidget" name="normal_histogram" native="true"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="AfterEqualizeWidget" name="after_equalize_img" native="true"/>
+            </item>
+            <item>
+             <widget class="EqualizedHistogramWidget" name="equalized_histogram" native="true"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="spacial_filtering_tab">
+       <attribute name="title">
+        <string>Spatial Filtering</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <widget class="QPushButton" name="filter_browse_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Browse</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_17">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="BeforeFilteringWidget" name="before_filtering_image" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Original Image</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="SaltPepperWidget" name="salt_pepper_widget" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Salt and Pepper effect</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="FilteredWidget" name="filtered_image" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Unsharped Image</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <item>
+               <widget class="MedianWidget" name="median_image_widget" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Median Filter Applied</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="1">
+              <layout class="QVBoxLayout" name="verticalLayout_8">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_14">
+                   <item>
+                    <widget class="QLabel" name="label_2">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Kernel Size</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="kernel_size_label">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_15">
+                   <item>
+                    <widget class="QLabel" name="label_3">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>Factor</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="factor_label">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_18">
+                 <item>
+                  <widget class="QPushButton" name="unsharp_button">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>Unsharp Mask</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="salt_button">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>Salt and Pepper</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="median_button">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>Median Filter</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="fourier_tab">
+       <attribute name="title">
+        <string>Fourier</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_10">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="browse_fourier">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Browse</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_21">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_18">
+            <item>
+             <widget class="BeforeFourierWidget" name="before_fourier_img" native="true"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="apply_fourier_button">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Apply Fourier</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_19">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_14">
+                <item>
+                 <widget class="AfterFourierMagWidget" name="mag_fourier_img" native="true"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>Magnitude before log</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_15">
+                <item>
+                 <widget class="AfterFourierWidget" name="after_fourier_img" native="true"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>Phase before log</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_20">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_16">
+                <item>
+                 <widget class="LogMagWidget" name="log_mag_img" native="true"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_10">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>Magnitude After log</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_17">
+                <item>
+                 <widget class="LogPhaseWidget" name="log_phase_img" native="true"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>Phase after log</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Fourier 2</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_28">
+        <item>
+         <widget class="QPushButton" name="open_for_fourier">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Open</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_22">
+          <item>
+           <widget class="QLabel" name="label_12">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Kernel Size</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="kernel_size_fourier_label">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="transform_button">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Apply fourier and get difference</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_23">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_20">
+            <item>
+             <widget class="OriginalImageFourierWidget" name="original_image_fourier" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_18">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Original Image</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_25">
+            <item>
+             <widget class="BlurredImageWidget" name="blurred_img" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_19">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Blurred in Spacial</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_24">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_26">
+            <item>
+             <widget class="TransformToFourierWidget" name="fft_img" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_16">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Blurred in Fourier</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_27">
+            <item>
+             <widget class="DifferenceImageWidget" name="difference_img" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_17">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Difference </string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Pattern</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_12">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_24">
+          <item>
+           <widget class="QPushButton" name="open_for_pattern">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Open</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_23">
+            <item>
+             <widget class="BeforePatternWidget" name="before_pattern_img" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_15">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Original Image</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="apply_pattern_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Remove Pattern</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_25">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <item>
+               <widget class="AfterPatternWidget" name="pattern_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_13">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Log Magnitude</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_22">
+              <item>
+               <widget class="RestoredImageWidget" name="restored_img_widget" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_14">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Restored Image</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Noise</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_11">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_31">
+          <item>
+           <widget class="QPushButton" name="display_image_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Display Image</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_29">
+            <item>
+             <widget class="DisplayImageWidget" name="displayed_image" native="true"/>
+            </item>
+            <item>
+             <widget class="AfterNoiseWidget" name="noisy_image" native="true"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_26">
+            <item>
+             <widget class="QRadioButton" name="gaussian_radio">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Gaussian</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="uniform_radio">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Uniform</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_29">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_27">
+              <item>
+               <widget class="QLabel" name="mean_a_word">
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>14</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::WinPanel</enum>
+                </property>
+                <property name="text">
+                 <string>Mean</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="mean_label">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_28">
+              <item>
+               <widget class="QLabel" name="std_b_word">
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>14</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::WinPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <property name="text">
+                 <string>Standard Deviation</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="std_label">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="add_noise_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Add Noise</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="histogram_noise_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Show Histogram</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_32">
+            <item>
+             <widget class="AfterHistogramWidget" name="noisy_histogram" native="true"/>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_30">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_30">
+                <item>
+                 <widget class="QLabel" name="label_20">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::WinPanel</enum>
+                  </property>
+                  <property name="text">
+                   <string>Mean</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="mean_histo_label">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_31">
+                <item>
+                 <widget class="QLabel" name="label_21">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::WinPanel</enum>
+                  </property>
+                  <property name="text">
+                   <string>Standard Deviation</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="std_histo_label">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Back Projection</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_13">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_38">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_33">
+            <item>
+             <widget class="QPushButton" name="schepp_logan_button">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Dipslay Phantom</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="apply_on_phantom_button">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Apply Projection</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_34">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_32">
+              <item>
+               <widget class="ScheppLoganWidget" name="schepp_logan_phantom_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_25">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Phantom</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_33">
+              <item>
+               <widget class="SinogramWidget" name="sinogram_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_26">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Sinogram Image</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_34">
+              <item>
+               <widget class="LaminogramOneWidget" name="laminogram_img1" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_27">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Laminogram step 1</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_35">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_35">
+              <item>
+               <widget class="LaminogramTwentyWidget" name="laminogram_img20" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_28">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Laminogram Step 20</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_36">
+              <item>
+               <widget class="RamLakWidget" name="ram_lak_filter_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_29">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Ram Lak Filter</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_37">
+              <item>
+               <widget class="HammingWidget" name="hamming_filter_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_30">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Hamming Filter</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Binary Image</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_14">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_44">
+          <item>
+           <widget class="QPushButton" name="display_binary_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Display Image</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_39">
+            <item>
+             <widget class="BinaryImageWidget" name="binary_img" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_32">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Original Image</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="apply_on_binary_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>Apply </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_36">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_40">
+              <item>
+               <widget class="ErosionWidget" name="erosion_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_22">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Erosion</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_41">
+              <item>
+               <widget class="DilationWidget" name="dilation_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_23">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Dilation</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_37">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_42">
+              <item>
+               <widget class="OpeningWidget" name="opening_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_24">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Opening</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_43">
+              <item>
+               <widget class="ClosingWidget" name="closing_img" native="true"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_31">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>Closing</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1097</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file_button">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="open_button"/>
+   </widget>
+   <addaction name="file_button"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="open_button">
+   <property name="text">
+    <string>Open </string>
+   </property>
+  </action>
+  <action name="actionjpg">
+   <property name="text">
+    <string>jpg</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>EmbedImageWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">embedimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZoomedCanvas</class>
+   <extends>QWidget</extends>
+   <header location="global">zoomedcanvas.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RotationCanvas</class>
+   <extends>QWidget</extends>
+   <header location="global">rotationcanvas.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BeforeEqualizeWidget</class>
+   <extends>QWidget</extends>
+   <header>beforeequalizewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AfterEqualizeWidget</class>
+   <extends>QWidget</extends>
+   <header>afterequalizewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NormalHistogramWidget</class>
+   <extends>QWidget</extends>
+   <header>normalhistogramwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>EqualizedHistogramWidget</class>
+   <extends>QWidget</extends>
+   <header>equalizedhistogramwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BeforeFilteringWidget</class>
+   <extends>QWidget</extends>
+   <header>beforefilteringwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FilteredWidget</class>
+   <extends>QWidget</extends>
+   <header>filteredwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MedianWidget</class>
+   <extends>QWidget</extends>
+   <header>medianwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SaltPepperWidget</class>
+   <extends>QWidget</extends>
+   <header>saltpepperwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AfterFourierWidget</class>
+   <extends>QWidget</extends>
+   <header>afterfourierwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BeforeFourierWidget</class>
+   <extends>QWidget</extends>
+   <header>beforefourierwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AfterFourierMagWidget</class>
+   <extends>QWidget</extends>
+   <header>afterfouriermagwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LogPhaseWidget</class>
+   <extends>QWidget</extends>
+   <header>logphasewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LogMagWidget</class>
+   <extends>QWidget</extends>
+   <header>logmagwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>OriginalImageFourierWidget</class>
+   <extends>QWidget</extends>
+   <header>originalimagefourierwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BlurredImageWidget</class>
+   <extends>QWidget</extends>
+   <header>blurredimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TransformToFourierWidget</class>
+   <extends>QWidget</extends>
+   <header>transformtofourierwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DifferenceImageWidget</class>
+   <extends>QWidget</extends>
+   <header>differenceimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BeforePatternWidget</class>
+   <extends>QWidget</extends>
+   <header>beforepatternwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AfterPatternWidget</class>
+   <extends>QWidget</extends>
+   <header>afterpatternwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RestoredImageWidget</class>
+   <extends>QWidget</extends>
+   <header>restoredimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DisplayImageWidget</class>
+   <extends>QWidget</extends>
+   <header>displayimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AfterNoiseWidget</class>
+   <extends>QWidget</extends>
+   <header>afternoisewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AfterHistogramWidget</class>
+   <extends>QWidget</extends>
+   <header>afterhistogramwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ScheppLoganWidget</class>
+   <extends>QWidget</extends>
+   <header>schepploganwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SinogramWidget</class>
+   <extends>QWidget</extends>
+   <header>sinogramwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LaminogramOneWidget</class>
+   <extends>QWidget</extends>
+   <header>laminogramonewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LaminogramTwentyWidget</class>
+   <extends>QWidget</extends>
+   <header>laminogramtwentywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RamLakWidget</class>
+   <extends>QWidget</extends>
+   <header>ramlakwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HammingWidget</class>
+   <extends>QWidget</extends>
+   <header>hammingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClosingWidget</class>
+   <extends>QWidget</extends>
+   <header>closingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>OpeningWidget</class>
+   <extends>QWidget</extends>
+   <header>openingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DilationWidget</class>
+   <extends>QWidget</extends>
+   <header>dilationwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ErosionWidget</class>
+   <extends>QWidget</extends>
+   <header>erosionwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BinaryImageWidget</class>
+   <extends>QWidget</extends>
+   <header>binaryimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
